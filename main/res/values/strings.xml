@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">FastSwap</string>
+    <string name="app_header_image">App Header Image</string>
+    <string name="root_status_icon">Root Status Icon</string>
+    <string name="device_info">Device Information</string>
+    <string name="device_model">Device Model</string>
+    <string name="device_brand">Brand</string>
+    <string name="android_version">Android Version</string>
+    <string name="kernel_info">Current Kernel</string>
+    <string name="kernel_version">Kernel Version</string>
+    <string name="kernel_build_date">Build Date</string>
+    <string name="flashing_status">Flashing Status</string>
+    <string name="select_kernel_zip">Select Kernel ZIP</string>
+    <string name="disclaimer_text">Warning: Flashing incorrect kernels may brick your device. Make sure the kernel is compatible with your device before flashing.</string>
+    <string name="about_button">About</string>
+    <string name="view_log">View Log</string>
+    
+    <!-- New strings for About Card -->
+    <string name="about_title">About FastSwap</string>
+    <string name="about_version">FastSwap Kernel Installer v1.0</string>
+    <string name="about_description">A simple tool to flash kernels without recovery. Requires root access.</string>
+    <string name="about_developer">Developer: @masventot (Telegram)</string>
+    <string name="about_channel">Channel: @athenacproject</string>
+    <string name="about_disclaimer">Use at your own risk!</string>
+    
+    <!-- GitHub Kernel features -->
+    <string name="github_kernel">GitHub Kernel</string>
+    <string name="github_url_hint">Enter GitHub repo URL (e.g., username/repo)</string>
+    <string name="fetch_releases">Fetch Releases</string>
+    <string name="git_clone">Git Clone</string>
+    <string name="available_releases">Available Releases</string>
+    <string name="no_releases_yet">No releases available. Enter a GitHub URL and fetch releases.</string>
+    <string name="download">Download</string>
+    <string name="downloading">Downloading…</string>
+    <string name="download_complete">Download complete</string>
+    <string name="download_failed">Download failed</string>
+    <string name="cloning_repo">Cloning repository…</string>
+    <string name="clone_complete">Clone complete</string>
+    <string name="clone_failed">Clone failed</string>
+    <string name="invalid_url">Invalid GitHub URL</string>
+    <string name="select_download_location">Select download location</string>
+    <string name="get_kernel">Get Kernel from GitHub</string>
+    <string name="detecting_repo">Detecting GitHub repository...</string>
+</resources>

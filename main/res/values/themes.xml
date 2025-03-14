@@ -1,0 +1,94 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.FastSwap" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        
+        <!-- Status bar and navigation bar -->
+        <item name="android:statusBarColor">@color/background_color</item>
+        <item name="android:navigationBarColor">@color/background_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        
+        <!-- Other customizations -->
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="materialButtonStyle">@style/Widget.FastSwap.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.FastSwap.CardView</item>
+        <item name="snackbarStyle">@style/Widget.FastSwap.Snackbar</item>
+        <item name="snackbarTextViewStyle">@style/Widget.FastSwap.Snackbar.TextView</item>
+    </style>
+    
+    <!-- Style for buttons -->
+    <style name="Widget.FastSwap.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="elevation">2dp</item>
+    </style>
+    
+    <!-- Style for cards -->
+    <style name="Widget.FastSwap.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">0dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="rippleColor">@color/accent</item>
+    </style>
+    
+    <!-- Style for Snackbars -->
+    <style name="Widget.FastSwap.Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">@color/primary_dark</item>
+        <item name="actionTextColorAlpha">1.0</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="elevation">6dp</item>
+    </style>
+    
+    <style name="Widget.FastSwap.Snackbar.TextView" parent="Widget.MaterialComponents.Snackbar.TextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <!-- Tema untuk Console Log Dialog -->
+    <style name="ConsoleLogDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.FastSwap.Button.TextButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.FastSwap.Button.TextButton</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.FastSwap.Button.TextButton</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/Widget.FastSwap.Dialog.Title</item>
+    </style>
+    
+    <!-- Text button style -->
+    <style name="Widget.FastSwap.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="rippleColor">@color/accent</item>
+    </style>
+    
+    <!-- Dialog title style -->
+    <style name="Widget.FastSwap.Dialog.Title" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Dialog content style -->
+    <style name="ConsoleLogTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
